@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHER | Music &amp; Shows</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="description" content="Meet ASHER, listen on Spotify, and discover upcoming music, shows, merch, and photos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="headerClass">
+      <a class="header-brand" href="#home"></a>
+      <nav class="section-tabs" aria-label="Page sections">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#spotify">Spotify</a>
+        <a href="#music">Upcoming Music</a>
+        <a href="#shows">Shows</a>
+        <a href="#merch">Merch</a>
+        <a href="#photos">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="pin-section" id="home" aria-label="Home">
+      <div id="container">
+        <div id="name">
+          <h1>ASHER</h1>
+        </div>
+      </div>
+    </section>
+    <nav class="socials" aria-label="Social links">
+        <a href="mailto:aengle.info@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email Asher Engle">
+          <i class="fas fa-envelope" aria-hidden="true">
+          </i>
+        </a>
+        <a href="https://www.instagram.com/asherengle_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fab fa-instagram" aria-hidden="true">
+          </i>
+        </a>
+        <a href="https://www.tiktok.com/@asherengle_" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <i class="fab fa-tiktok" aria-hidden="true">
+          </i>
+        </a>
+        <a href="https://open.spotify.com/artist/7uvAMaH00bpjyhg0jD0V0f" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
+          <i class="fab fa-spotify" aria-hidden="true">
+          </i>
+        </a>
+        <a href="https://music.apple.com/us/artist/asher-engle/1832332396" target="_blank" rel="noopener noreferrer" aria-label="Apple Music">
+          <i class="fab fa-apple" aria-hidden="true">
+          </i>
+        </a>
+        <a href="https://music.amazon.com/artists/B0FLWWNRHQ/asher-engle" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music">
+          <i class="fab fa-amazon" aria-hidden="true">
+          </i>
+        </a>
+        <a href="https://music.youtube.com/channel/UCrGFpHyG7GvejssDBDkBCtw" target="_blank" rel="noopener noreferrer" aria-label="YouTube Music">
+          <i class="fab fa-youtube" aria-hidden="true">
+          </i>
+        </a>
+    </nav>
+    <main class="information">
+      <div class="content-grid">
+        <section class="content-card niceBox" id="about" aria-labelledby="about-title">
+          <div id="blurb">
+            <h2 id="about-title">
+              About Me
+            </h2>
+          </div>
+          <p>
+            blah blah  blah blah  blah blah blah blah blah blah blah blah blah blah,  blah blah blah blah. blah blah blah blah blah blah blah blah blah blah. blah blah blah blah. blah blah blah blah blah blah, blah blah, blah blah, blah blah. blah blah blah blah! blah blah?
+          </p>
+        </section>
+        <section class="content-card spotifyEmbedding" id="spotify" aria-labelledby="spotify-title">
+          <h2 id="spotify-title">Top Tracks</h2>
+          <iframe title="ASHER top tracks on Spotify" src="https://open.spotify.com/embed/artist/7uvAMaH00bpjyhg0jD0V0f?utm_source=generator&amp;theme=0" width="100%" height="452" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+          </iframe>
+        </section>
+        <section class="content-card upcoming-music" id="music" aria-labelledby="music-title">
+          <h2 id="music-title">Upcoming Music</h2>
+          <figure class="release-teaser">
+            <img src="./updatedContent/TEASEWR PHOTO.png" alt="Back to Where We Started teaser artwork, with ASHER against a blue sky" width="1491" height="1001" loading="lazy" decoding="async">
+            <figcaption>
+              <h3>Back to Where We Started</h3>
+              <p>Coming <time datetime="2027-03">March 2027</time></p>
+            </figcaption>
+          </figure>
+          <!-- Replace the teaser artwork with the embedded teaser video when supplied. -->
+        </section>
+        <section class="content-card shows-box coming-soon" id="shows" aria-labelledby="shows-title">
+          <h2 id="shows-title">Upcoming Shows</h2>
+          <p class="status-message">Coming soon</p>
+          <p>No shows announced yet. Check back for dates.</p>
+        </section>
+        <section class="content-card merch coming-soon" id="merch" aria-labelledby="merch-title">
+          <h2 id="merch-title">Merch</h2>
+          <p class="status-message">Coming soon</p>
+        </section>
+        <!-- <figure class="content-card photo-card">
+          <img src="./content/Photos/image 5.jpeg" alt="Asher Engle performing live" class="pic5" loading="lazy">
+        </figure> -->
+      </div>
+      <section class="gallery" id="photos" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <h2 id="gallery-title">Gallery</h2>
+          <div class="gallery-controls" hidden>
+            <button type="button" data-gallery-direction="-1" aria-label="Previous photo" aria-controls="photo-slideshow">&larr;</button>
+            <button type="button" data-gallery-direction="1" aria-label="Next photo" aria-controls="photo-slideshow">&rarr;</button>
+          </div>
+        </div>
+      <div class="picture" id="photo-slideshow" tabindex="0" role="region" aria-label="Photo slideshow. Swipe or use the arrow keys to browse.">
+        <img src="./updatedContent/PHOTOS/IMG_5693.JPG" alt="Asher holding an acoustic guitar beneath the trees" width="3011" height="4547" loading="lazy" decoding="async">
+        <img src="./updatedContent/PHOTOS/IMG_5682.JPG" alt="Asher playing acoustic guitar on a park bench" width="3011" height="4547" loading="lazy" decoding="async">
+        <img src="./updatedContent/PHOTOS/IMG_5668.JPG" alt="Asher playing guitar beside the water" width="3011" height="4547" loading="lazy" decoding="async">
+        <img src="./content/Photos/image 9.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 13.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 4.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 17.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 15.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 6.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 10.jpeg" alt="Asher Engle photo" loading="lazy">
+        <img src="./content/Photos/image 12.jpeg" alt="Asher Engle photo" loading="lazy">
+      </div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <form action="mailto:aengle.info@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+          <h2 id="contact-title">
+            Contact Me
+          </h2>
+          <input type="text" name="name" aria-label="Your Name" autocomplete="name" placeholder="Your Name" required>
+          <input type="email" name="email" aria-label="Your Email" autocomplete="email" placeholder="Your Email" required>
+          <textarea name="message" aria-label="Your Message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">
+            Send email
+          </button>
+        </form>
+        <img src="./content/Photos/image 16.jpeg" class="pic16" alt="Asher Engle photo" loading="lazy">
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 Asher Engle &mdash; All Rights Reserved
+      </p>
+    </footer>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
